@@ -3,15 +3,15 @@
 
    If education is Masters then 
 
-    if workclass is Local-gov then wage is >50K.
+    if occupation is Sales then wage is >50K.
 
-    If workclass is Private then 
+    if occupation is Prof-specialty then wage is >50K.
 
-     if occupation is Prof-specialty then wage is >50K.
+    If occupation is Exec-managerial then 
 
-     if occupation is Exec-managerial then wage is >50K.
+     if workclass is Private then wage is >50K.
 
-    if workclass is State-gov then wage is >50K.
+     if workclass is State-gov then wage is >50K.
 
    if education is Prof-school then wage is >50K.
 
@@ -25,31 +25,39 @@
 
    If education is Some-college then 
 
-    if workclass is Self-emp-inc then wage is >50K.
+    If occupation is Craft-repair then 
 
-    if workclass is Federal-gov then wage is >50K.
+     if workclass is Private then wage is >50K.
 
-    If workclass is Private then 
+     if workclass is Self-emp-not-inc then wage is <=50K.
 
-     if occupation is Craft-repair then wage is >50K.
+    If occupation is Sales then 
 
-     if occupation is Sales then wage is >50K.
+     if workclass is Private then wage is >50K.
 
-     if occupation is Farming-fishing then wage is <=50K.
+     if workclass is Self-emp-not-inc then wage is <=50K.
 
-     if occupation is Prof-specialty then wage is <=50K.
+    if occupation is Farming-fishing then wage is <=50K.
 
-     if occupation is Exec-managerial then wage is <=50K.
+    if occupation is Prof-specialty then wage is <=50K.
 
-     if occupation is Other-service then wage is <=50K.
+    If occupation is Exec-managerial then 
 
-     if occupation is Adm-clerical then wage is <=50K.
+     if workclass is Self-emp-inc then wage is >50K.
 
-     if occupation is Transport-moving then wage is >50K.
+     if workclass is Private then wage is >50K.
 
-    if workclass is State-gov then wage is <=50K.
+    if occupation is Machine-op-inspct then wage is <=50K.
 
-    if workclass is Self-emp-not-inc then wage is <=50K.
+    if occupation is Other-service then wage is <=50K.
+
+    if occupation is Adm-clerical then wage is <=50K.
+
+    If occupation is Transport-moving then 
+
+     if workclass is Private then wage is >50K.
+
+     if workclass is Self-emp-not-inc then wage is <=50K.
 
    if education is 9th then wage is <=50K.
 
@@ -75,25 +83,27 @@
 
     if occupation is Prof-specialty then wage is <=50K.
 
-    if occupation is Machine-op-inspct then wage is <=50K.
-
     if occupation is Adm-clerical then wage is <=50K.
 
    If education is Assoc-acdm then 
 
     if occupation is Prof-specialty then wage is <=50K.
 
-    if occupation is Tech-support then wage is >50K.
-
     If occupation is Exec-managerial then 
 
-     if race is White then wage is >50K.
+     If workclass is Private then 
 
-     if race is Black then wage is <=50K.
+      if race is White then wage is >50K.
+
+      if race is Black then wage is <=50K.
+
+     if workclass is Self-emp-not-inc then wage is <=50K.
 
     if occupation is Adm-clerical then wage is <=50K.
 
    If education is Bachelors then 
+
+    if occupation is Protective-serv then wage is <=50K.
 
     If occupation is Sales then 
 
@@ -111,7 +121,7 @@
 
      if workclass is Federal-gov then wage is >50K.
 
-     if workclass is Private then wage is >50K.
+     if workclass is Private then wage is <=50K.
 
      if workclass is Self-emp-not-inc then wage is <=50K.
 
@@ -119,15 +129,19 @@
 
     if occupation is Other-service then wage is <=50K.
 
-    if occupation is Adm-clerical then wage is <=50K.
-
    If education is HS-grad then 
 
     If occupation is Craft-repair then 
 
-     if workclass is Private then wage is <=50K.
+     If workclass is Private then 
+
+      if race is White then wage is <=50K.
+
+      if race is Other then wage is <=50K.
 
      if workclass is Self-emp-not-inc then wage is <=50K.
+
+    if occupation is Protective-serv then wage is <=50K.
 
     if occupation is Sales then wage is <=50K.
 

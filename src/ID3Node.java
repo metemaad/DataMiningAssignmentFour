@@ -237,6 +237,8 @@ public class ID3Node {
     /**
      * calculate the Information gain for this node
      * this function generates child for the node based on candidate attribute classes
+     * First calculate Entropy for the dataset, then for each class in the condidate attribute the entropy will be calculated.
+     * each class in this case is the child of the node. then by using the Information Gain formula and a simple substitution the Information Gain for the node will be calculated.
      */
     void gain() {
 
@@ -273,6 +275,12 @@ public class ID3Node {
         if (verbose > 1) System.out.print(" -> Gain  " + this.gain + "\n");
 
     }
+
+    /**
+     * claculate the cardinality of each class in the candidate attribute
+     * @param attribute attribute to be counted
+     * @return updated attribute
+     */
     private Attribute UpdateCounts(Attribute attribute) {
 
         int index = this.attributes.indexOf(attribute);
@@ -301,6 +309,13 @@ public class ID3Node {
 
 
     }
+
+    /**
+     * calculate the Info for each an attribute. in this case
+     * we use entropy += -probability * (Math.log(probability) / Math.log(2)) to calculate info of A
+     * @param target An attribute
+     * @return Info of the attribute
+     */
     private double Info(Attribute target) {
 
         target = UpdateCounts(target);

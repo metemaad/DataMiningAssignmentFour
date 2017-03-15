@@ -17,12 +17,12 @@ java main
 
  Usage
  -----
- To execute this program, once compiled, type: main
+ To execute this program, once compiled, type: java main
  At the prompt, enter the name of the database file to be mined.  This
  database will be analyzed for all fields, returning a list from
  which the user must choose.  The field chosen will be the field for which
  the rules are generated.  The results will be if-then-else statements
- classifying the target attribute.
+ classifying the target attribute in the Rule file.
 
  Assumptions
  -----------
@@ -35,10 +35,10 @@ java main
 
  Overview of Program Code
  ------------------------
- This program consists of nine Java source program files.  and a document folder to have mode help information.
- Moreover, there is a comment for each function in the source code to underestand how it is working.
- for more information go to doc folder or go to the source files. by the way a very shor description for a few important functions are available below.
- The following illustrates the function distribution ad explain some of the key functions:
+ This program consists of nine Java source program files  and a document folder to have more helpfull information.
+ Moreover, there is a few comments for each function in the source code to underestand how it is working.
+ for more information go to doc folder or go to the source files. by the way a very short description for a few important functions are available below.
+ The following illustrates the function distribution and explain some of the key functions:
 
 main.java:
 
