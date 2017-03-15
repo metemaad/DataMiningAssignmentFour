@@ -1,0 +1,161 @@
+------------------------------------------------------------
+  If age is >=30 then 
+
+   If education is Masters then 
+
+    if occupation is Sales then wage is >50K.
+
+    if occupation is Prof-specialty then wage is >50K.
+
+    If occupation is Exec-managerial then 
+
+     if workclass is Private then wage is >50K.
+
+     if workclass is State-gov then wage is >50K.
+
+   if education is Prof-school then wage is >50K.
+
+   if education is 11th then wage is <=50K.
+
+   if education is 10th then wage is <=50K.
+
+   if education is Preschool then wage is <=50K.
+
+   if education is 1st-4th then wage is <=50K.
+
+   If education is Some-college then 
+
+    if workclass is Self-emp-inc then wage is >50K.
+
+    if workclass is Federal-gov then wage is >50K.
+
+    If workclass is Private then 
+
+     if occupation is Craft-repair then wage is <=50K.
+
+     if occupation is Sales then wage is >50K.
+
+     if occupation is Farming-fishing then wage is <=50K.
+
+     if occupation is Prof-specialty then wage is <=50K.
+
+     if occupation is Exec-managerial then wage is <=50K.
+
+     if occupation is Other-service then wage is <=50K.
+
+     if occupation is Adm-clerical then wage is <=50K.
+
+     if occupation is Transport-moving then wage is >50K.
+
+    if workclass is State-gov then wage is <=50K.
+
+    if workclass is Self-emp-not-inc then wage is <=50K.
+
+   if education is 9th then wage is <=50K.
+
+   If education is Doctorate then 
+
+    if race is Asian-Pac-Islander then wage is <=50K.
+
+    if race is White then wage is >50K.
+
+   If education is Assoc-voc then 
+
+    if occupation is Craft-repair then wage is <=50K.
+
+    if occupation is Protective-serv then wage is >50K.
+
+    If occupation is Sales then 
+
+     if workclass is Private then wage is >50K.
+
+     if workclass is Self-emp-not-inc then wage is <=50K.
+
+    if occupation is Farming-fishing then wage is <=50K.
+
+    if occupation is Prof-specialty then wage is <=50K.
+
+    if occupation is Machine-op-inspct then wage is <=50K.
+
+    if occupation is Adm-clerical then wage is <=50K.
+
+   If education is Assoc-acdm then 
+
+    if occupation is Prof-specialty then wage is <=50K.
+
+    if occupation is Tech-support then wage is >50K.
+
+    If occupation is Exec-managerial then 
+
+     If workclass is Private then 
+
+      if race is White then wage is >50K.
+
+      if race is Black then wage is <=50K.
+
+     if workclass is Self-emp-not-inc then wage is <=50K.
+
+    if occupation is Adm-clerical then wage is <=50K.
+
+   If education is Bachelors then 
+
+    if workclass is Self-emp-inc then wage is <=50K.
+
+    if workclass is Local-gov then wage is <=50K.
+
+    if workclass is Federal-gov then wage is >50K.
+
+    If workclass is Private then 
+
+     if occupation is Sales then wage is <=50K.
+
+     if occupation is Prof-specialty then wage is <=50K.
+
+     if occupation is Exec-managerial then wage is >50K.
+
+     if occupation is Machine-op-inspct then wage is <=50K.
+
+     if occupation is Other-service then wage is <=50K.
+
+     if occupation is Adm-clerical then wage is <=50K.
+
+    if workclass is Self-emp-not-inc then wage is <=50K.
+
+   If education is HS-grad then 
+
+    If occupation is Craft-repair then 
+
+     If workclass is Private then 
+
+      if race is White then wage is <=50K.
+
+      if race is Other then wage is <=50K.
+
+     if workclass is Self-emp-not-inc then wage is <=50K.
+
+    if occupation is Sales then wage is <=50K.
+
+    if occupation is Farming-fishing then wage is <=50K.
+
+    if occupation is Prof-specialty then wage is >50K.
+
+    if occupation is Handlers-cleaners then wage is <=50K.
+
+    if occupation is Exec-managerial then wage is <=50K.
+
+    if occupation is Machine-op-inspct then wage is <=50K.
+
+    If occupation is Other-service then 
+
+     if workclass is Local-gov then wage is >50K.
+
+     if workclass is Private then wage is <=50K.
+
+    if occupation is Adm-clerical then wage is <=50K.
+
+    if occupation is Transport-moving then wage is >50K.
+
+   if education is 7th-8th then wage is <=50K.
+
+  if age is <30 then wage is <=50K.
+
